@@ -1,0 +1,40 @@
+<div class="intro-section" id="home-section">
+
+  <div class="slide-1" style="background-image: url('<%= image_url "hero_1.jpg" %>');" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mb-4">
+              <h1  data-aos="fade-up" data-aos-delay="100"><%= t(:text_main_tagline) %></h1>
+              <p class="mb-4"  data-aos="fade-up" data-aos-delay="200"><%= t(:text_intro_title_subscription) %></p>
+              <p data-aos="fade-up" data-aos-delay="300"><%= link_to "<span>#{t(:text_login)}</span>".html_safe, new_user_session_path, class: "btn btn-primary py-3 px-5 btn-pill", remote: true %></p>
+
+            </div>
+
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
+              <form action="/users" method="post" class="form-box">
+                <h3 class="h4 text-black mb-4"><%= t(:text_sign_up) %></h3>
+                <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+                <div class="form-group">
+                  <input type="email" name="user[email]" class="form-control" placeholder="<%= t(:label_email_address) %>">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="user[password]" class="form-control" required  minlength="6" placeholder="<%= t(:label_password) %>">
+                </div>
+                <div class="form-group mb-4">
+                  <input type="password" class="form-control" name="user[password_confirmation]" required minlength="6" placeholder="<%= t(:label_password_confirmtion) %>">
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-primary btn-pill" required minlength="6" value="<%= t(:text_sign_up) %>">
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

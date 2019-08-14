@@ -1,0 +1,97 @@
+<div id="reviews_section" class="site-section bg-image overlay" style="background-image: url('<%= image_url "hero_1.jpg" %>');">
+  <div class="container">
+    <div class="row justify-content-center align-items-center owl-carousel">
+
+      <div class="col-md-12 text-center testimony slide-carousel">
+        <%= image_tag("person_4.jpg", alt: "Image", class: "img-fluid w-25 rounded-circle mx-auto mb-4") %>
+        <h3 class="mb-4">Jerome Jensen</h3>
+        <blockquote>
+          <p><%= t(:text_jerome_review_text) %></p>
+        </blockquote>
+      </div>
+
+      <div class="col-md-12 text-center testimony slide-carousel">
+        <%= image_tag("person_1.jpg", alt: "Image", class: "img-fluid w-25 rounded-circle mx-auto mb-4") %>
+        <h3 class="mb-4">Rodger Stanley</h3>
+        <blockquote>
+          <p><%= t(:text_rodger_review_text) %></p>
+        </blockquote>
+      </div>
+
+      <div class="col-md-12 text-center testimony slide-carousel">
+        <%= image_tag("person_3.jpg", alt: "Image", class: "img-fluid w-25 rounded-circle mx-auto mb-4") %>
+        <h3 class="mb-4">Ewa brown</h3>
+        <blockquote>
+          <p><%= t(:text_ewa_review_text) %></p>
+        </blockquote>
+      </div>
+
+    </div>
+    <div class="controls_carousel">
+      <div class="arrow_carousel arrow_left" ><</div>
+      <div class="arrow_carousel arrow_right" >></div>
+    </div>
+  </div>
+</div>
+
+<div class="site-section pb-0">
+
+  <div class="future-blobs">
+    <div class="blob_2">
+      <%= image_tag("blob_2.svg", alt: "Image") %>
+    </div>
+    <div class="blob_1">
+      <%= image_tag("blob_1.svg", alt: "Image") %>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mb-5 justify-content-center" data-aos="fade-up" data-aos-delay="">
+      <div class="col-lg-7 text-center">
+        <h2 class="section-title"><%= t(:text_label_why_chose_us) %></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 ml-auto align-self-start"  data-aos="fade-up" data-aos-delay="100">
+
+        <div class="p-4 rounded bg-white why-choose-us-box">
+
+          <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
+            <span class="custom-icon-inner mr-3 icon-big-center-white"><i class="fas fa-layer-group"></i></span>
+            <div><h3 class="m-0"><%= t(:text_feauture_project_management_icon_chart) %></h3></div>
+          </div>
+
+          <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
+            <span class="custom-icon-inner mr-3 icon-big-center-white"><i class="fas fa-cog"></i></span>
+            <div><h3 class="m-0"><%= t(:text_feauture_project_management_icon_managment) %></h3></div>
+          </div>
+
+          <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
+            <span class="custom-icon-inner mr-3 icon-big-center-white"><i class="fas fa-check-double"></i></span>
+            <div><h3 class="m-0"><%= t(:text_feauture_opportunities_done) %></h3></div>
+          </div>
+
+          <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
+            <span class="custom-icon-inner mr-3 icon-big-center-white"><i class="fas fa-flag"></i></span>
+            <div><h3 class="m-0"><%= t(:text_feauture_opportunities_prioritize) %></h3></div>
+          </div>
+
+          <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
+            <span class="custom-icon-inner mr-3 icon-big-center-white"><i class="fas fa-stopwatch"></i></span>
+            <div><h3 class="m-0"><%= t(:text_feauture_think_easer_timeline) %></h3></div>
+          </div>
+
+          <div class="d-flex align-items-center custom-icon-wrap custom-icon-light">
+            <span class="custom-icon-inner mr-3 icon-big-center-white"><i class="fas fa-ellipsis-h"></i></span>
+            <div><h3 class="m-0"><%= t(:text_feauture_think_easer_others) %></h3></div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="col-lg-7 align-self-end"  data-aos="fade-left" data-aos-delay="200">
+        <%= image_tag("person_transparent.png", alt: "Image", class: 'img-fluid') %>
+      </div>
+    </div>
+  </div>
+</div>

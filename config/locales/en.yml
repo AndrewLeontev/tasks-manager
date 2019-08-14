@@ -1,33 +1,48 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  btn_contact_us: 'Contact Us'
+  btn_home: 'Home'
+  label_email_address: 'Email Address'
+  label_password: 'Password'
+  label_password_confirmtion: 'Confirm password'
+  text_sign_up: 'Sign Up'
+  text_login: 'Login'
+  text_logout: 'logout'
+  label_text_links: 'Links'
+  text_news_link: 'Site news'
+  text_link_page_profile: 'Profile'
+  text_main_tagline: 'Plan Your Tasks - Save Your Time'
+  label_text_about_us: 'About Us'
+  label_text_reviews: 'Reviews'
+  label_text_features_title: 'Explore amazing features'
+  label_text_features: 'Features'
+  text_intro_title_subscription: "Tasks Manager is a better way to create, follow up and assign tasks to you or your team!\nDesigned with simplicity and efficiency in mind."
+  text_features_short_description: 'Our tool is designed so that you can start using it from the minute you register when your needs progress from the weekly shopping list to a multi-platform project, tasks manager has features and capabilities that suit your needs.'
+  text_reviews:_short_description: 'What our customers say about us'
+  label_text_contact_form_fname: 'First Name'
+  label_text_contact_form_lname: 'Last Name'
+  label_text_contact_form_subject: 'Subject'
+  label_text_contact_form_user_email: 'Email'
+  label_text_contact_form_user_message: 'Write your message here.'
+  label_text_contact_form_title: 'Message Us'
+  btn_text_contact_us_form_submit: 'Send Message'
+  text_contact_form_short_description: 'Using this form you can contact us. You can write your comments, wishes or problems related to the operation of the service.'
+  label_text_about_tasks_manager: 'About Tasks Manager'
+  text_about_tasks_manager_short_description: 'Our application allows you to organize your tasks, does not contain anything superfluous and is constantly being developed taking into account the wishes of customers. Already thousands of satisfied customers have chosen us.'
+  label_text_subscribe: 'Subscribe'
+  text_subscribe_short_description: 'Sign up for our newsletter so you don’t miss out on anything important'
+  text_jerome_review_text: 'Simple and fast service for working with tasks, with a good organization and support. Only the necessary functionality and nothing more.'
+  text_rodger_review_text: 'For a long time I was looking for something similar that would have such simple and at the same time strong functionality.'
+  text_ewa_review_text: 'Good service, there is everything I need and easy to use.'
+  text_label_why_chose_us: 'Why Choose Us'
+  text_title_feauture_project_management: 'PROJECT MANAGEMENT'
+  text_feauture_project_management: 'Track the progress of the tasks of your team or company.'
+  text_feauture_project_management_icon_chart: 'Convenient ways to track'
+  text_feauture_project_management_icon_managment: 'Powerful management system'
+  text_title_feauture_opportunities: 'Wide opportunities'
+  text_title_feauture_opportunities_description: 'We have many convenient tools that will suit both the team and for each individual person.'
+  text_feauture_opportunities_done: 'Change statuses in one click'
+  text_feauture_opportunities_prioritize: 'Prioritize your tasks'
+  text_title_feauture_think_easer: 'Be More Productive'
+  text_feauture_think_easer_timeline: 'Planning and time management'
+  text_feauture_think_easer_others: 'And much more...'
+

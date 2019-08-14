@@ -1,0 +1,39 @@
+<footer class="footer-section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3><%= t(:label_text_about_tasks_manager) %></h3>
+        <p><%= t(:text_about_tasks_manager_short_description) %></p>
+      </div>
+
+      <div class="col-md-3 ml-auto">
+        <h3><%= t(:label_text_links) %></h3>
+        <ul class="list-unstyled footer-links">
+          <li><%= link_to t(:btn_home), root_path %></li>
+          <li><a href="#"><%= t(:text_news_link) %></a></li>
+
+          <% if user_signed_in? %>
+            <li><%= link_to t(:text_link_page_profile), edit_user_registration_path, :class => 'navbar-link' %></li>
+            <li><%= link_to t(:text_logout), destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
+          <% else %>
+            <li><%= link_to t(:text_sign_up), new_user_registration_path, :class => 'navbar-link'  %></li>
+            <li><%= link_to t(:text_login), new_user_session_path, :class => 'navbar-link'  %></li>
+          <% end %>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h3><%= t(:label_text_subscribe) %></h3>
+        <p><%= t(:text_subscribe_short_description) %></p>
+        <form action="#" class="footer-subscribe">
+          <div class="d-flex mb-5">
+            <input type="text" style='height: 43px;' class="form-control rounded-0" placeholder="Email">
+            <input type="submit" class="btn btn-primary rounded-0" value="<%= t(:label_text_subscribe) %>">
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
