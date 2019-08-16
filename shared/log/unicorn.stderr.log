@@ -1,0 +1,367 @@
+I, [2019-08-15T14:38:10.907688 #16644]  INFO -- : Refreshing Gem list
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/connection_adapters/connection_specification.rb:260:in `resolve_symbol_connection': 'produciton' database is not configured. Available: ["default", "development", "test", "production"] (ActiveRecord::AdapterNotSpecified)
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/connection_adapters/connection_specification.rb:241:in `resolve_connection'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/connection_adapters/connection_specification.rb:143:in `resolve'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/connection_handling.rb:57:in `establish_connection'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:51:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/base.rb:27:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:255:in `block in load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:661:in `new_constants_in'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:255:in `load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+	from /home/ubuntu/tasks-manager/app/models/application_record.rb:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:476:in `block in load_file'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:661:in `new_constants_in'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:475:in `load_file'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:373:in `block in require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `block in load_interlock'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:13:in `loading'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `load_interlock'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:356:in `require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:48:in `block in require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:47:in `require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:510:in `load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:60:in `block in load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:195:in `const_missing'
+	from /home/ubuntu/tasks-manager/app/models/user.rb:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:476:in `block in load_file'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:661:in `new_constants_in'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:475:in `load_file'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:373:in `block in require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `block in load_interlock'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:13:in `loading'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `load_interlock'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:356:in `require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:48:in `block in require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:47:in `require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:510:in `load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:60:in `block in load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:195:in `const_missing'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:283:in `const_get'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:283:in `block in constantize'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:281:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:281:in `inject'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:281:in `constantize'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:582:in `get'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:613:in `constantize'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise.rb:320:in `get'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:83:in `to'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:78:in `modules'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:95:in `routes'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:162:in `default_used_route'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:72:in `initialize'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise.rb:350:in `new'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise.rb:350:in `add_mapping'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/rails/routes.rb:243:in `block in devise_for'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/rails/routes.rb:242:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/rails/routes.rb:242:in `devise_for'
+	from /home/ubuntu/tasks-manager/config/routes.rb:2:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:432:in `instance_exec'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:432:in `eval_block'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:414:in `draw'
+	from /home/ubuntu/tasks-manager/config/routes.rb:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:285:in `block in load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:285:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:41:in `block in load_paths'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:41:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:41:in `load_paths'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:20:in `reload!'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:30:in `block in updater'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/file_update_checker.rb:83:in `execute'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:10:in `execute'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/finisher.rb:130:in `block in <module:Finisher>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `run'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:228:in `block in tsort_each'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:347:in `each'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:347:in `call'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:226:in `tsort_each'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:205:in `tsort_each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application.rb:361:in `initialize!'
+	from /home/ubuntu/tasks-manager/config/environment.rb:5:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/lib/unicorn.rb:54:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/lib/unicorn.rb:54:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/lib/unicorn/http_server.rb:794:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/lib/unicorn/http_server.rb:141:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/bin/unicorn:128:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `<main>'
+I, [2019-08-15T14:52:57.004818 #17086]  INFO -- : Refreshing Gem list
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/connection_adapters/connection_specification.rb:260:in `resolve_symbol_connection': 'produciton' database is not configured. Available: ["default", "development", "test", "production"] (ActiveRecord::AdapterNotSpecified)
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/connection_adapters/connection_specification.rb:241:in `resolve_connection'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/connection_adapters/connection_specification.rb:143:in `resolve'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/connection_handling.rb:57:in `establish_connection'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:51:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/base.rb:27:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:255:in `block in load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:661:in `new_constants_in'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:255:in `load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+	from /home/ubuntu/tasks-manager/app/models/application_record.rb:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:476:in `block in load_file'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:661:in `new_constants_in'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:475:in `load_file'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:373:in `block in require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `block in load_interlock'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:13:in `loading'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `load_interlock'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:356:in `require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:48:in `block in require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:47:in `require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:510:in `load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:60:in `block in load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:195:in `const_missing'
+	from /home/ubuntu/tasks-manager/app/models/user.rb:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:476:in `block in load_file'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:661:in `new_constants_in'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:475:in `load_file'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:373:in `block in require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `block in load_interlock'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:13:in `loading'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `load_interlock'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:356:in `require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:48:in `block in require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:47:in `require_or_load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:510:in `load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:60:in `block in load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:195:in `const_missing'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:283:in `const_get'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:283:in `block in constantize'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:281:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:281:in `inject'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/inflector/methods.rb:281:in `constantize'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:582:in `get'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:613:in `constantize'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise.rb:320:in `get'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:83:in `to'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:78:in `modules'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:95:in `routes'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:162:in `default_used_route'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/mapping.rb:72:in `initialize'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise.rb:350:in `new'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise.rb:350:in `add_mapping'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/rails/routes.rb:243:in `block in devise_for'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/rails/routes.rb:242:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/lib/devise/rails/routes.rb:242:in `devise_for'
+	from /home/ubuntu/tasks-manager/config/routes.rb:2:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:432:in `instance_exec'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:432:in `eval_block'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:414:in `draw'
+	from /home/ubuntu/tasks-manager/config/routes.rb:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:54:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:285:in `block in load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:285:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:41:in `block in load_paths'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:41:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:41:in `load_paths'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:20:in `reload!'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:30:in `block in updater'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.3/lib/active_support/file_update_checker.rb:83:in `execute'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/routes_reloader.rb:10:in `execute'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application/finisher.rb:130:in `block in <module:Finisher>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `run'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:228:in `block in tsort_each'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:347:in `each'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:347:in `call'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:226:in `tsort_each'
+	from /home/ubuntu/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/tsort.rb:205:in `tsort_each'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/application.rb:361:in `initialize!'
+	from /home/ubuntu/tasks-manager/config/environment.rb:5:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/lib/unicorn.rb:54:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/lib/unicorn.rb:54:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/lib/unicorn/http_server.rb:794:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/lib/unicorn/http_server.rb:141:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/gems/unicorn-5.5.1/bin/unicorn:128:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `<main>'
+I, [2019-08-15T15:11:35.354009 #18175]  INFO -- : Refreshing Gem list
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+I, [2019-08-15T15:11:36.039328 #18175]  INFO -- : listening on addr=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock fd=9
+I, [2019-08-15T15:11:36.039459 #18175]  INFO -- : worker=0 spawning...
+I, [2019-08-15T15:11:36.040996 #18175]  INFO -- : worker=1 spawning...
+I, [2019-08-15T15:11:36.041984 #18175]  INFO -- : master process ready
+I, [2019-08-15T15:11:36.054109 #18177]  INFO -- : worker=0 spawned pid=18177
+I, [2019-08-15T15:11:36.054221 #18177]  INFO -- : worker=0 ready
+I, [2019-08-15T15:11:36.054500 #18178]  INFO -- : worker=1 spawned pid=18178
+I, [2019-08-15T15:11:36.054613 #18178]  INFO -- : worker=1 ready
+I, [2019-08-15T15:18:40.687901 #18175]  INFO -- : reaped #<Process::Status: pid 18177 exit 0> worker=0
+I, [2019-08-15T15:18:40.688532 #18175]  INFO -- : reaped #<Process::Status: pid 18178 exit 0> worker=1
+I, [2019-08-15T15:18:40.690311 #18175]  INFO -- : master complete
+I, [2019-08-15T15:19:57.459721 #28625]  INFO -- : Refreshing Gem list
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+I, [2019-08-15T15:19:58.440125 #28625]  INFO -- : unlinking existing socket=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock
+I, [2019-08-15T15:19:58.440771 #28625]  INFO -- : listening on addr=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock fd=9
+I, [2019-08-15T15:19:58.440875 #28625]  INFO -- : worker=0 spawning...
+I, [2019-08-15T15:19:58.442515 #28625]  INFO -- : worker=1 spawning...
+I, [2019-08-15T15:19:58.443448 #28625]  INFO -- : master process ready
+I, [2019-08-15T15:19:58.455330 #28628]  INFO -- : worker=1 spawned pid=28628
+I, [2019-08-15T15:19:58.455461 #28628]  INFO -- : worker=1 ready
+I, [2019-08-15T15:19:58.456132 #28627]  INFO -- : worker=0 spawned pid=28627
+I, [2019-08-15T15:19:58.456236 #28627]  INFO -- : worker=0 ready
+I, [2019-08-15T15:21:28.461072 #28625]  INFO -- : reaped #<Process::Status: pid 28627 exit 0> worker=0
+I, [2019-08-15T15:21:28.461162 #28625]  INFO -- : reaped #<Process::Status: pid 28628 exit 0> worker=1
+I, [2019-08-15T15:21:28.461216 #28625]  INFO -- : master complete
+I, [2019-08-15T15:21:55.854630 #29067]  INFO -- : Refreshing Gem list
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+I, [2019-08-15T15:21:56.540915 #29067]  INFO -- : unlinking existing socket=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock
+I, [2019-08-15T15:21:56.541097 #29067]  INFO -- : listening on addr=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock fd=9
+I, [2019-08-15T15:21:56.541198 #29067]  INFO -- : worker=0 spawning...
+I, [2019-08-15T15:21:56.542856 #29067]  INFO -- : worker=1 spawning...
+I, [2019-08-15T15:21:56.543854 #29067]  INFO -- : master process ready
+I, [2019-08-15T15:21:56.555296 #29069]  INFO -- : worker=0 spawned pid=29069
+I, [2019-08-15T15:21:56.555439 #29069]  INFO -- : worker=0 ready
+I, [2019-08-15T15:21:56.556095 #29070]  INFO -- : worker=1 spawned pid=29070
+I, [2019-08-15T15:21:56.556194 #29070]  INFO -- : worker=1 ready
+I, [2019-08-15T15:47:06.196678 #29067]  INFO -- : reaped #<Process::Status: pid 29069 exit 0> worker=0
+I, [2019-08-15T15:47:06.197342 #29067]  INFO -- : reaped #<Process::Status: pid 29070 exit 0> worker=1
+I, [2019-08-15T15:47:06.197420 #29067]  INFO -- : master complete
+I, [2019-08-15T15:52:42.931345 #30249]  INFO -- : Refreshing Gem list
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+I, [2019-08-15T15:52:44.772784 #30249]  INFO -- : unlinking existing socket=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock
+I, [2019-08-15T15:52:44.772947 #30249]  INFO -- : listening on addr=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock fd=9
+I, [2019-08-15T15:52:44.773055 #30249]  INFO -- : worker=0 spawning...
+I, [2019-08-15T15:52:44.774897 #30249]  INFO -- : worker=1 spawning...
+I, [2019-08-15T15:52:44.775900 #30249]  INFO -- : master process ready
+I, [2019-08-15T15:52:44.787536 #30251]  INFO -- : worker=0 spawned pid=30251
+I, [2019-08-15T15:52:44.787671 #30251]  INFO -- : worker=0 ready
+I, [2019-08-15T15:52:44.788462 #30252]  INFO -- : worker=1 spawned pid=30252
+I, [2019-08-15T15:52:44.788581 #30252]  INFO -- : worker=1 ready
+I, [2019-08-16T04:26:29.829132 #30249]  INFO -- : reaped #<Process::Status: pid 30251 exit 0> worker=0
+I, [2019-08-16T04:26:29.829744 #30249]  INFO -- : reaped #<Process::Status: pid 30252 exit 0> worker=1
+I, [2019-08-16T04:26:29.829829 #30249]  INFO -- : master complete
+I, [2019-08-16T04:38:53.121330 #934]  INFO -- : Refreshing Gem list
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/ubuntu/.rvm/gems/ruby-2.6.0/gems/bootstrap-4.3.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+I, [2019-08-16T04:38:53.856367 #934]  INFO -- : unlinking existing socket=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock
+I, [2019-08-16T04:38:53.857140 #934]  INFO -- : listening on addr=/home/ubuntu/tasks-manager/shared/sockets/unicorn.sock fd=9
+I, [2019-08-16T04:38:53.857247 #934]  INFO -- : worker=0 spawning...
+I, [2019-08-16T04:38:53.858796 #934]  INFO -- : worker=1 spawning...
+I, [2019-08-16T04:38:53.859760 #934]  INFO -- : master process ready
+I, [2019-08-16T04:38:53.871169 #937]  INFO -- : worker=1 spawned pid=937
+I, [2019-08-16T04:38:53.871290 #937]  INFO -- : worker=1 ready
+I, [2019-08-16T04:38:53.872091 #936]  INFO -- : worker=0 spawned pid=936
+I, [2019-08-16T04:38:53.872202 #936]  INFO -- : worker=0 ready
