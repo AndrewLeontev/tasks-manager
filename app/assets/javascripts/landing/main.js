@@ -9,6 +9,7 @@ jQuery(document).ready(function($) {
 	"use strict";
 
 	var siteMenuClone = function() {
+        $('.site-mobile-menu-body').html('');
 
 		$('.js-clone-nav').each(function() {
 			var $this = $(this);
