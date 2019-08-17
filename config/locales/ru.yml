@@ -1,4 +1,4 @@
-en:
+ru:
   btn_contact_us: 'Свзяаться с нами'
   btn_home: 'Главная'
   label_email_address: 'Email адрес'
@@ -47,3 +47,5 @@ en:
   text_feauture_think_easer_: 'Не совершайте лишних действий'
   text_feauture_think_easer_timeline: 'Планирование и управление сроками'
   text_feauture_think_easer_others: 'И многое другое'
+  error_text_wrong_email: ' имеет неверный формат'
+  text_feedback_have_been_send: 'Ваше сообщение было отправлено'

@@ -1,0 +1,10 @@
+var errors_block = $('#feedback_info')
+errors_block.removeClass('alert alert-warning alert-success').html('');
+
+<% if @feedback.errors.present? %>
+  <% @feedback.errors.full_messages.each do |err| %>
+    errors_block.addClass('alert alert-warning').append('<li><%= err %></li>');
+  <% end %>
+<% else %>
+  errors_block.addClass('alert alert-success').append('<li><%= t(:text_feedback_have_been_send) %></li>');
+<% end %>

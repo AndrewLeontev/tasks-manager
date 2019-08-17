@@ -1,0 +1,10 @@
+ru:
+  activerecord:
+    models:
+      feedback: "Отзыв"
+    attributes:
+      feedback:
+        first_name: "Имя"
+        last_name: "Фамилия"
+        body: "Сообщение"
+        subject: "Тема"

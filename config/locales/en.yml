@@ -45,4 +45,5 @@ en:
   text_title_feauture_think_easer: 'Be More Productive'
   text_feauture_think_easer_timeline: 'Planning and time management'
   text_feauture_think_easer_others: 'And much more...'
-
+  error_text_wrong_email: ' address format wrong'
+  text_feedback_have_been_send: 'Message have been send'
