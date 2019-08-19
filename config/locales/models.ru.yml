@@ -1,10 +1,17 @@
 ru:
   activerecord:
+    errors:
+      messages:
+        confirmation: ' не совпадают'
     models:
       feedback: "Отзыв"
+      user: "Пользователь"
     attributes:
       feedback:
         first_name: "Имя"
         last_name: "Фамилия"
         body: "Сообщение"
         subject: "Тема"
+      user:
+        password: "Пароль"
+        password_confirmation: "Пароли"

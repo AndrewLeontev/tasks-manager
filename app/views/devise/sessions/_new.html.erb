@@ -1,0 +1,27 @@
+<%= form_for(User.new, url: session_path(:user), class: 'login_form', remote: true) do |f| %>
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel"><%= t(:text_authorization) %></h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div class="modal-body">
+
+    <div id="new_session_errors" ></div>
+
+    <div class="form-group">
+      <%= f.email_field :email, placeholder: t(:label_email_address), class: 'form-control', required: true%>
+    </div>
+    <div class="form-group">
+      <%= f.password_field :password, placeholder: t(:label_password), class: 'form-control', required: true%>
+    </div>
+  </div>
+
+  <div class="modal-footer">
+    <p data-aos="fade-up" data-aos-delay="300">
+      <button type="button" class="btn btn-secondary py-3 px-5 btn-pill" data-dismiss="modal"><%= t(:button_close) %></button>
+      <%= f.submit t(:text_login), class: "btn btn-primary py-3 px-5 btn-pill submit_login_form_btn" %>
+    </p>
+  </div>
+<% end %>

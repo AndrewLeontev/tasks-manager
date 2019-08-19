@@ -1,0 +1,11 @@
+var info_block =  $('.register_block_inform');
+info_block.removeClass('alert alert-warning alert alert-info').html('');
+
+<% if error_messages.present? %>
+  info_block.addClass('alert alert-warning')
+      <% error_messages.each do |err| %>
+        info_block.append('<p><%= err %></p>')
+      <% end %>
+<% elsif inform_message.present? %>
+  info_block.addClass('alert alert-info').html('<p><%= error_message %></p>')
+<% end %>

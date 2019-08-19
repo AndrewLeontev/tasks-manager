@@ -1,0 +1,7 @@
+var err_block = $('#new_session_errors');
+err_block.html();
+
+<% if error_messages.present? %>
+    err_block.addClass('alert alert-warning')
+        .html(`<p><%= error_messages %></p>`)
+<% end %>

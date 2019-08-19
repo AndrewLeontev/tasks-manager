@@ -1,0 +1,30 @@
+<%= form_for(User.new, url: registration_path(:user), remote: true) do |f| %>
+<div class="modal-header">
+  <h3><%= t(:label_sign_up_header) %></h3>
+</div>
+
+<div class="modal-body">
+
+  <div class="register_block_inform" ></div>
+
+  <div class="form-group">
+    <%= f.email_field :email, placeholder: t(:label_email_address), class: 'form-control', required: true%>
+  </div>
+
+  <div class="form-group">
+    <%= f.password_field :password, placeholder: t(:label_password), class: 'form-control', required: true%>
+  </div>
+
+  <div class="form-group">
+    <%= f.password_field :password_confirmation, placeholder: t(:label_password_confirmation), class: 'form-control', required: true%>
+  </div>
+
+</div>
+
+<div class="modal-footer">
+  <p data-aos="fade-up" data-aos-delay="300">
+    <button type="button" class="btn btn-secondary py-3 px-5 btn-pill" data-dismiss="modal"><%= t(:button_close) %></button>
+    <%= f.submit t(:label_password_confirmation), class: "btn btn-primary py-3 px-5 btn-pill submit_login_form_btn" %>
+  </p>
+</div>
+<% end %>

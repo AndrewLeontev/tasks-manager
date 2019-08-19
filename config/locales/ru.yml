@@ -1,5 +1,5 @@
 ru:
-  btn_contact_us: 'Свзяаться с нами'
+  btn_contact_us: 'Контакты'
   btn_home: 'Главная'
   label_email_address: 'Email адрес'
   label_password: 'Пароль'
@@ -49,3 +49,8 @@ ru:
   text_feauture_think_easer_others: 'И многое другое'
   error_text_wrong_email: ' имеет неверный формат'
   text_feedback_have_been_send: 'Ваше сообщение было отправлено'
+  button_close: 'Закрыть'
+  text_authorization: 'Авторизация'
+  label_password_confirmation: 'Зарегестрироваться'
+  label_sign_up_header: 'Зарегестрироваться'
+  text_email_is_used: 'Данный email уже существует'
