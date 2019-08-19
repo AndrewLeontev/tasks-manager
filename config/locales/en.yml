@@ -51,4 +51,4 @@ en:
   text_authorization: 'Authorization'
   label_password_confirmation: 'Регистрация'
   label_sign_up_header: 'Sign Up'
-  text_email_is_used: 'This Emil is used.'
+  you_are_logged_text: "You're logged in how"

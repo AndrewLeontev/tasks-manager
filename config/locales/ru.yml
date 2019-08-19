@@ -53,4 +53,4 @@ ru:
   text_authorization: 'Авторизация'
   label_password_confirmation: 'Зарегестрироваться'
   label_sign_up_header: 'Зарегестрироваться'
-  text_email_is_used: 'Данный email уже существует'
+  you_are_logged_text: 'Вы вошли в систему как'
