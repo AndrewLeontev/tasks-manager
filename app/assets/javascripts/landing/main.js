@@ -125,7 +125,7 @@ jQuery(document).ready(function($) {
 	owl.owlCarousel({
         loop: true,
         center: true,
-        margin: 10,
+        margin: 30,
         stagePadding: 0,
         items: 1,
         autoplay: true,
@@ -136,10 +136,10 @@ jQuery(document).ready(function($) {
             0: {
                 touchDrag: true
             },
-            640: {
+            600: {
                 touchDrag: true
             },
-            1024: {
+            1000: {
                 touchDrag: false
             }
         }

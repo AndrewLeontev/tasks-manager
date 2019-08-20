@@ -5,3 +5,10 @@
     color: #555;
     padding: 0;
 }
+
+.owl-container {
+    min-height: 50vh;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
